@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style href="./styles.css"></style>
+    <script src="./main.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search by name</h1>
+      <form id="nameForm">
+        <div class="form-group">
+          <label for="nameVal">Please enter the name of the doctor</label>
+          <input type="text" class="form-control" id="nameVal">
+        </div>
+        <button type="submit" class="btn btn-primary form-control">Search</button>
+      </form>
+      <h1>Search by your affliction</h1>
+      <form id="afflictionForm">
+        <div class="form-group">
+          <label for="afflictionVal">Please enter your main symptom</label>
+          <input type="text" class="form-control" id="afflictionVal">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary form-control">Search</button>
+        </div>
+      </form>
+      <br>
+      <table id="doctorReturn">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Address</th>
+          <th>Phone</th>
+          <th>Website</th>
+          <th>New Patients</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
